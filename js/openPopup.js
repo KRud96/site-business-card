@@ -1,5 +1,3 @@
-//import '../style.css';
-
 const menuEdu = document.querySelector(".menu__education");
 const menuContacts = document.querySelector(".menu__contacts");
 const menuProject = document.querySelector(".menu__learn-project");

@@ -1,0 +1,198 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.language{
+    max-width: 1200px;
+    height: auto;
+    position: relative;
+    margin: auto;
+
+    box-sizing: border-box;
+}
+#language{
+    margin-left: 27px;
+    margin-top: 20px;
+}
+.menu-and-popup {
+    max-width: 1200px;
+    height: 750px;
+    position: relative;
+    margin: auto;
+    top: 20px;
+
+    padding: 10px 10px 20px;
+    box-sizing: border-box;
+    
+}
+.menu-and-popup ul{
+    width: 260px;
+    height: 260px;
+    padding: 0;
+    top: 200px;
+    left: 40%;
+
+    list-style: 0;
+    position: absolute;
+    border: 3px solid #d4d4d4;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.menu-and-popup ul:after{
+    content: '';
+    border: 1px solid #d4d4d4;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+.menu-and-popup li{
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    width: 132px;
+    height: 132px;
+    left: -2px;
+    top: -2px;
+    transform-origin: 100% 100%;
+    overflow: hidden;
+}
+.menu-and-popup li:hover {
+    transition: 0.2s;
+    background: #32C60B;
+}
+.menu-and-popup li:nth-child(1){
+    transform: rotate(0deg);
+}
+.menu-and-popup li:nth-child(2){
+    transform: rotate(180deg);
+}
+.menu-and-popup li:nth-child(3){
+    transform: rotate(-270deg);
+}
+.menu-and-popup li:nth-child(4){
+    transform: rotate(-90deg);
+}
+.menu-and-popup li .menu__image {
+    margin: 41px;
+    display: block;
+}
+.menu-and-popup li .menu__image__project {
+    margin: 37px;
+    display: block;
+    transform: rotate(180deg);
+}
+
+.menu-and-popup li .menu__image-contacts {
+    margin: 30px;
+    display: block;
+    transform: rotate(-90deg);
+}
+.menu-and-popup li .menu__image svg,
+.menu-and-popup li .menu__image__project svg,
+.menu-and-popup li .menu__image-contacts svg {
+    max-width: 50px;
+    max-height: 50px;
+}
+.menu-and-popup .svg__color {
+    fill: #32C60B;
+}
+.menu-and-popup li:hover .svg__color {
+    fill: #fff;
+}
+.hidden{
+    display: none;
+}
+.popup,
+.popup-eng{
+    width: 400px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+    border: 5px solid #d4d4d4;
+    border-radius: 10px;
+
+    padding: 10px 10px 20px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.popup__avatar,
+.popup-eng__avatar{
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 140px;
+    height:140px;
+    border-radius: 2px;
+}
+
+.popup-contact,
+.popup-eng-contact{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    
+    border: 5px solid #d4d4d4;
+    border-radius: 10px;
+
+    padding: 10px 10px 20px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.popup-project,
+.popup-eng-project{
+    width:400px;
+    position: absolute;
+    right: 20px;
+    top: 225px;
+
+    border: 5px solid #d4d4d4;
+    border-radius: 10px;
+
+    padding: 10px 10px 20px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.popup-project__avatar{
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 170px;
+    height:140px;
+    border-radius: 2px;
+}
+.popup-project p,
+.popup-eng-project p{
+    text-align: center;
+    margin-top: 30px
+}
+.phone img,
+.phone p,
+.mail img,
+.mail p{
+    vertical-align: middle;
+    display: inline-block;
+    margin-block-end: 0.25em;
+    margin-block-start: 0.25em;
+} 
+.mail a{
+    text-decoration: none;
+    color: #000000;
+}   
+.button{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    background: #32C60B;
+    border: 4px solid #32C60B;
+    border-radius: 10px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "site-visitka",
+  "version": "1.0.0",
+  "main": "openPopup.js",
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "webpack-dev-server -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.1",
+    "html-webpack-plugin": "^4.0.4",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {},
+  "description": ""
+}

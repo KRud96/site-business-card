@@ -1,4 +1,4 @@
-import '../style.css';
+//import '../style.css';
 
 const menuEdu = document.querySelector(".menu__education");
 const menuContacts = document.querySelector(".menu__contacts");
